@@ -10,6 +10,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { SecondPageComponent } from './second-page/second-page.component';
 import { ThirdPageComponent } from './third-page/third-page.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material';
+import { MatTableModule } from '@angular/material/table';
 
 const appRoutes: Routes = [
   { path: 'first-page', component: FirstPageComponent },
@@ -34,7 +39,12 @@ const appRoutes: Routes = [
     MatToolbarModule,
     MatSidenavModule,
     MatIconModule,
+    MatCardModule,
+    MatExpansionModule,
     MatListModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatInputModule,
     RouterModule.forRoot(appRoutes),
   ],
   providers: [],

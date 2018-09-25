@@ -15,3 +15,11 @@ mat-nav-list{
   border: 1px solid lightgray;
   height: 88%;
 }
+.usernameStyle{
+font-size: small;
+float: right;
+}
+.pageToolbar{
+  text-align: right ;
+    display: inline-grid ;
+}

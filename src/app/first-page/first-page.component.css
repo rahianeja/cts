@@ -1,0 +1,23 @@
+.titleCard{
+    /* border: 1px solid grey; */
+}
+.upperExpansionPanel{
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+.btnBasic{
+    border-radius: 50px;
+   float: right;
+   width: 140px;
+}
+.cardMargins{
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.transactionalTable{
+    width: 100%;
+}
+.btnNewTransaction{
+    margin-bottom: 8px;
+}

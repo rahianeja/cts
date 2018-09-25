@@ -15,7 +15,7 @@
   </mat-sidenav>
   <mat-sidenav-content>
    
-    <mat-toolbar color="primary">
+    <mat-toolbar color="primary" class="pageToolbar">
       <button
         type="button"
         aria-label="Toggle sidenav"
@@ -24,7 +24,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>ctsai</span>
+      <span class="usernameStyle">Tim Jose</span>
     </mat-toolbar>
 
     <router-outlet></router-outlet>
